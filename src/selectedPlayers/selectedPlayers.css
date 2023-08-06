@@ -1,0 +1,21 @@
+.selected-container{
+    color: white;
+    position: fixed;
+    right: 120px;
+    top: 210px;
+}
+
+.container-head{
+    text-align: center;
+}
+h1{
+    margin: 0px;
+}
+
+h5{
+    margin: 10px 0px;
+}
+
+.selected-names{
+    line-height: 28px;
+}

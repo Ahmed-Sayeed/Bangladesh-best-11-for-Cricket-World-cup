@@ -1,0 +1,30 @@
+.cart-container{
+    color: white;
+    box-shadow: 5px -5px 8px #000000;
+    margin-bottom: 15px;
+};
+
+.cart-header, .cart-footer {
+    text-align: center;
+}
+
+.cart-header img{
+    width: 250px;
+}
+.cart {
+    padding: 15px;
+}
+
+button.cart-btn {
+    border: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button.cart-btn:hover{
+    background-color: none;
+    color: white;
+}

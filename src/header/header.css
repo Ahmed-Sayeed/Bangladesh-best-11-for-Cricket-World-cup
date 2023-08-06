@@ -1,0 +1,38 @@
+.header-container{
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    padding: 20px 0px;
+    background-image: url('../images/header-background.jpg');
+    margin-bottom: 10px;
+    
+}
+
+.world-cup-area{
+    width: 180px;
+}
+
+.world-cup-area img{
+    width: 100%;
+    margin-left: 50px;
+    animation: golgol 5s infinite;
+}
+
+@keyframes golgol{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.world-cup-area img:hover{
+    transform: rotateY(360deg);
+}
+
+.description-area {
+    position: absolute;
+    left: 22%;
+    top: 50px;
+}
